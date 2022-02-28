@@ -25,7 +25,13 @@ const db = mysql.createConnection({
 });
 
 ```
+### Importer un jeu de donné (optionnel)
+```
+Si vous souhaiter utiliser un jeu de donne 
+le fichier mysql se trouve dans data/Dump.sql
+```
 
 ### Run back
 ```
-node se
+node server
+```
