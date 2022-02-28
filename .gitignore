@@ -1,0 +1,17 @@
+back/node_modules
+back/.env
+
+
+front/node_modules
+front//dist
+
+
+# Log files
+front/npm-debug.log*
+front/yarn-debug.log*
+front/yarn-error.log*
+front/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
