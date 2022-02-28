@@ -1,7 +1,7 @@
 # groupomania
 
 ## Copier le depot
-git clone https://github.com/jonathanvalette/P7_valette_jonathan.git  <br>
+git clone https://github.com/jonathanvalette/P7_valette_jonathan.git  
 
 
 ## Project setup se positionner dans le repertoire back 
@@ -40,7 +40,7 @@ le fichier mysql se trouve dans data/Dump.sql
 node server
 ```
 
-## Project setup se positionner dans le repertoire front
+## (dans un nouveau terminal) Project setup : se positionner dans le repertoire front (dans un nouveau terminal)
 ```
 npm install
 ```
