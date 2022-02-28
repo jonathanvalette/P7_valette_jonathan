@@ -14,7 +14,7 @@ const Comment = function(comment) {
 Comment.create = (newComment, result) => {
     db.query(`INSERT 
               INTO comments 
-              SET ?`, 
+              VALUES ?`, 
               newComment, (err, res) => {
         if(err) {
             result(err, null);
