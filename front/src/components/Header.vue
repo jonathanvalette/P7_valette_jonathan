@@ -6,19 +6,7 @@
           <img width="158" height="78" src="../assets/icon-white.png" alt="groupomania-logo"/>
         </a>
       </div>
-      <div class="block lg:hidden">
-        <button 
-        class="flex items-center px-3 py-2 border rounded text-teal-lighter bg-green-400 border-teal-light hover:text-white hover:border-white"
-        aria-label="Cliquer sur menu">
-          <svg
-            class="h-3 w-3"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
-      </div>
+      
       <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
           <router-link 
@@ -75,6 +63,6 @@ export default {
       localStorage.clear();
       window.location.href='/'
     }
-  }
+  },
 }
 </script>
