@@ -14,7 +14,8 @@ const app = new Vue({
 
       router.push(route);
     }
-  },
+  }
+  });
 <template>
   <div class="min-h-screen flex flex-col items-center mt-24 bg-gray-900">
     <div class="container mx-auto">
@@ -71,3 +72,5 @@ const app = new Vue({
       </div>
     </div>
   </div>
+
+
