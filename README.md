@@ -4,7 +4,7 @@
 git clone https://github.com/jonathanvalette/P7_valette_jonathan.git  
 
 
-## Project setup se positionner dans le repertoire back 
+## Project setup serveur se positionner dans le repertoire back 
 ```
 npm install
 ```
@@ -40,7 +40,7 @@ le fichier mysql se trouve dans data/Dump.sql
 node server
 ```
 
-## (dans un nouveau terminal) Project setup : se positionner dans le repertoire front 
+## (dans un nouveau terminal) Project setup frntend : se positionner dans le repertoire front 
 ```
 npm install
 ```
