@@ -40,7 +40,7 @@ le fichier mysql se trouve dans data/Dump.sql
 node server
 ```
 
-## (dans un nouveau terminal) Project setup frntend : se positionner dans le repertoire front 
+## (dans terminal différent du repertoire back) Project setup front : se positionner dans le repertoire front 
 ```
 npm install
 ```
