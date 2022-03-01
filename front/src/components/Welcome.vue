@@ -32,7 +32,7 @@ const app = new Vue({
             <div class="relative mb-8 mt-10 h-px bg-gray-300">
               <h2 class="absolute left-0 top-0 flex justify-center w-full -mt-2">
                 <span class="bg-white px-4 text-xs text-gray-500 uppercase">
-                  Informations Conditions générales d'utilisation
+                  Informations sur les Conditions générales d'utilisation
                 </span>
               </h2>
             </div>
