@@ -16,7 +16,7 @@ DB_PASS=yourpass
 ```
 mysql -u root -p
 CREATE DATABASE groupomania; 
-or change the configurration in back/model/db.js
+or change the configuration in back/model/db.js
 const db = mysql.createConnection({
     host     : process.env.DB_HOST,
     user     : process.env.DB_USER,

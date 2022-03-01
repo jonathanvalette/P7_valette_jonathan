@@ -22,7 +22,7 @@ app.use(bodyParser.json());                                                // D�
 app.use(bodyParser.urlencoded({extended: true}));                          // content-type: application/x-www-form-urlencoded
 app.use(cors());
 app.use('/images', express.static(path.join(__dirname, 'images')));        // Gestion de la source de manière statique grâce à Express
-app.use(helmet());                                                         // Activation de la protection Helmet : équivaut à 11 protections (req http)
+app.use(helmet());                                                         // Activation de la protection Helmet  (req http)
 app.use("/api/messages", messageRoutes);                                   // L'application utilise le endpoint /api/messages pour les routes messageRoutes
 app.use("/api/comments", commentRoutes);                                   // L'application utilise le endpoint /api/comments pour les routes commentRoutes
 app.use("/api/auth", userRoutes);                                          // L'application utilise le endpoint /api/auth pour les routes userRoutes
