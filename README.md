@@ -45,7 +45,7 @@ node server
 npm install
 ```
 
-### Run front
+### se positionner dans le repertoire front  
 ```
 npm run serve
 ```
