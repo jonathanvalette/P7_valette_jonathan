@@ -82,7 +82,7 @@
                   type="button"
                   aria-label="Cliquer sur s'incrire"
                   class="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-green-700 hover:bg-green-900 rounded py-2 w-full transition duration-150 ease-in">
-                  <span class="mr-2 uppercase">S'inscrire</span>
+                  <span class="mr-2 uppercase">Inscription</span>
                   <span>
                     <svg
                       class="h-6 w-6"
