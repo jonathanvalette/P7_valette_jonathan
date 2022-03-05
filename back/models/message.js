@@ -14,7 +14,7 @@ const Message = function(message) {
 Message.create = (newMessage, result) => {
     let statment = `INSERT 
                     INTO messages 
-                    VALUES ?`;
+                    SET ?`;
     db.query(statment, newMessage, (err, res) => {
         if(err) {
             result(err, null);

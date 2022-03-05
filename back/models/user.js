@@ -7,15 +7,15 @@ const User = function(user) {
     this.email=user.email,
     this.password=user.password,
     this.profilPic=user.profilPic,
-    this.isAdmin=!user.isAdmin,
-    this.isActive=!user.isActive
+    this.isAdmin=!!user.isAdmin,
+    this.isActive=!!user.isActive
 }
 
 // Création d\'un user
 User.create = (newUser, result) => {
     db.query(`INSERT 
-              INTO users
-              VALUES ?`, 
+              INTO users 
+              SET ?`, 
               newUser, (err, res) => {
         if(err) {
             result(err, null);
