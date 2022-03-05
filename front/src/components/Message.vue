@@ -18,7 +18,7 @@
         <div class="author flex items-center -ml-3 my-3">
           <avatar class="h-10 w-10 object-cover rounded-full m-1" :user = "item"/>
           <div class="text-sm tracking-tighter text-gray-900">
-            <p class="text-green-700 ml-1 mr-16"></span> {{ item.pseudo }}</p>
+            <p class="text-green-700 ml-1 mr-16">{{ item.pseudo }}</p>
             <span class="text-gray-600 text-sm ml-1 font-light">{{ item.createdAt | moment("from", "now", true) }} ago</span>
           </div>
         </div>
